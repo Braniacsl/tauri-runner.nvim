@@ -1,6 +1,6 @@
 local M = {}
 
-function M.setup()
+function M.setup(opts)
 	local tauri_term = nil
 
 	vim.keymap.set("n", "<leader>td", function()
